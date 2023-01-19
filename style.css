@@ -1,3 +1,11 @@
-p{
+body {
+    background: #75CDAA;
+}
+
+p {
     text-align: center;
+}
+
+strong {
+    color: red;
 }
