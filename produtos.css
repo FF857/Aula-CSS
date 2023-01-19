@@ -1,0 +1,17 @@
+header {
+    background-image: url("img/beneficios.jpg");
+
+}
+
+nav li{
+    display: inline;
+    margin: 20px; /*coloca espaço entre os links*/
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font: bold;
+    font-size: 25px;
+    text-decoration: none; /*tirar sublinhado do texto*/
+}
