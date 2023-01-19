@@ -1,5 +1,5 @@
 body {
-    background: #75CDAA;
+    background: #A2D9CE;
 }
 
 h1{
@@ -14,7 +14,7 @@ p {
     font-size: 20px;
 }
 
-strong {
-    color: red;
+em strong {
+    color:#024e3e;
 }
 
