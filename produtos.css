@@ -5,7 +5,7 @@ header {
 
 nav li{
     display: inline;
-    margin: 20px; /*coloca espaço entre os links*/
+    margin: 15px; /*coloca espaço entre os links*/
 }
 
 nav a {
