@@ -1,16 +1,25 @@
+/**/
+
 body {
-    background-color: #A2D9CE;
+    background-color: #f3f3f3;
+    font-family: verdana, "courier new";
 
 }
+.caixa-header{ /*foi criado uma caxia para envelopar e moldar o posiciobamento dos itens no cabecalho*/
+    
+    position: relative; /*é necessário que a caixa "levante" com posicionamento relativo para que as coisas que estão dentro(lista com posicionamento apsoluto)entrem nos requisitos da caixa*/
+    width: 940px; /*adiciona uma largura padrão*/
+
+}
+
 header {
     background-color: rgb(81, 160, 230);
 
 }
-nav ul{
-
-    position: absolute;
-    top: 0;
-    right: 0;
+nav {
+    position: absolute; /*altera o estilo de posição da lista de nav*/
+    top: 0;/*altera a posição em relação a página web*/
+    right: 0;/*altera a posição em relação a página web*/
 }
 nav li{ /*mexe diretamente na lista onde tem os links*/
     display: inline; /*tira de modo block e coloca em modo inline (alinhar links)*/
