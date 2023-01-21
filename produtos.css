@@ -1,17 +1,27 @@
+body {
+    background-color: #A2D9CE;
+
+}
 header {
-    background-image: url("img/beneficios.jpg");
+    background-color: rgb(81, 160, 230);
 
 }
+nav ul{
 
-nav li{
-    display: inline;
-    margin: 15px; /*coloca espaço entre os links*/
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+nav li{ /*mexe diretamente na lista onde tem os links*/
+    display: inline; /*tira de modo block e coloca em modo inline (alinhar links)*/
+    margin: 0 0 0 15px; /*coloca espaço entre os links*/
+    
 }
 
-nav a {
-    text-transform: uppercase;
-    color: #000000;
-    font: bold;
+nav a { /*mexe diretamente no html dos links*/
+    text-transform: uppercase; /*deixa o texto dos links em maiusculo*/
+    color: #FFFFFF;
+    font-weight: bold; /*deixa o texto em negrito*/
     font-size: 25px;
     text-decoration: none; /*tirar sublinhado do texto*/
 }
