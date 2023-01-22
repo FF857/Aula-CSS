@@ -1,7 +1,7 @@
 /**/
 
 body {
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     font-family: verdana, "courier new";
 
 }
@@ -31,8 +31,24 @@ nav li{ /*mexe diretamente na lista onde tem os links*/
 
 nav a { /*mexe diretamente no html dos links*/
     text-transform: uppercase; /*deixa o texto dos links em maiusculo*/
-    color: #000000;
+    color: #ffffff;
     font-weight: bold; /*deixa o texto em negrito*/
     font-size: 25px;
     text-decoration: none; /*tirar sublinhado do texto*/
+}
+
+.produtos{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top; /*itens em inline-block se alinham pela ultima linha/pixel, vertival-align: top faz a referencia ser a linha/pixel de cima*/
+}
+.produtos h2{
+    font-size: 23px;
+    font-weight: bold;
 }
