@@ -52,3 +52,11 @@ nav a { /*mexe diretamente no html dos links*/
     font-size: 23px;
     font-weight: bold;
 }
+.produtos-preco{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.produtos-descricao{
+    padding: 10px;
+}
